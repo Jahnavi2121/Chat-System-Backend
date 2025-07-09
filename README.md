@@ -1,6 +1,3 @@
-You're right to double-check — I wrote it in a personal tone but didn’t format it exactly like a polished GitHub-style `README.md`. Here’s the **README content** now rewritten in proper Markdown for GitHub, with correct formatting and structure you'd use directly in your repo:
-
-```markdown
 # Chat Application Backend
 
 This is the backend for a chat system I built using **Python (Flask-RESTful)** and **PostgreSQL**. It supports direct messages, threaded replies, channels within communities, user suspensions, and full-text message search. The project was built incrementally over multiple design and development sprints, with a strong focus on database design, testing, and API-first architecture.
@@ -67,7 +64,6 @@ This is the backend for a chat system I built using **Python (Flask-RESTful)** a
 ## Folder Structure
 
 ```
-
 ├── src/
 │   ├── api/               # REST API methods
 │   ├── models/            # Schema definitions
@@ -78,8 +74,7 @@ This is the backend for a chat system I built using **Python (Flask-RESTful)** a
 ├── FUTURE.md              # Future design ideas
 ├── requirements.txt
 └── README.md
-
-````
+```
 
 ## Setup
 
@@ -92,7 +87,6 @@ python src/setup.py
 
 # Run tests
 python -m unittest discover tests/
-````
-
+```
 
 
